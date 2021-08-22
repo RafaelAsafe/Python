@@ -7,7 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Site inicial</h1>
+    <h1>{{Variavel}}</h1>
+
+    <img src="../static/img/Desafio.jpeg" alt="Desafio_matemático" width="460" height="345">
+    
+    <form action="{{url_for('index')}}", method="post">  
+        <label for="">Número a: </label>
+        <input type="text" name="name" placeholder= "Número a"><br>
+        <label for=""> Número b: </label>
+        <input type="text" name="name1" placeholder= "Número b"><br>
+        <label for=""> Número c: </label>
+        <input type="text" name="name2" placeholder= "Número c"><br>
+        <label for=""> Número d: </label>
+        <input type="text" name="name3" placeholder= "Número d"><br>
+        <button>Enviar</button>
+    </form>
+
+    
+    
+  
     
 </body>
 </html>
