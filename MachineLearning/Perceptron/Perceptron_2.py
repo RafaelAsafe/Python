@@ -14,6 +14,7 @@ dataframe = pd.read_csv("Python\MachiningLearning\SVM\AND.csv")
 colunas_dt = np.size(dataframe['x1'])
 
 # estabelecer dados iniciais
+
 x = np.delete(dataframe, -1, axis=1)  # entrada 1
 d = (dataframe[:, -1])  # saidas desejadas
 # vetor de zeros para as saidas do algoritmo de treino
