@@ -5,4 +5,7 @@ class Fruit:
 class Apple(Fruit):
     pass
 
+class Grape(Fruit):
+    pass
+
 
