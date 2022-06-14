@@ -1,2 +1,2 @@
 #!/usr/bin/env python
-print("hello word")
+print("hello wsord")
