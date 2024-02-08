@@ -1,0 +1,2 @@
+t = "asomamasom"
+s = "som"
